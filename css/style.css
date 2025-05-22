@@ -939,7 +939,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url('/img/pattern.png'); /* Make sure the path is correct */
+  background-image: url('/img/pattern.webp'); /* Make sure the path is correct */
   background-repeat: no-repeat;
   background-size: contain; /* or 'cover' if you want full stretch */
   z-index: -1;
