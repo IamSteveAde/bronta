@@ -160,7 +160,7 @@
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-item .nav-link:hover,
 .navbar-light .navbar-nav .nav-item .nav-link.active  {
-    color: #d9d9d9;
+    color: skyblue;
 }
 .pri{
     color: #d9d9d9;
@@ -487,7 +487,7 @@
 
 .offer-section .nav a.accordion-link.active {
     color: var(--bs-white);
-    background: var(--bs-primary);
+    background: skyblue;
 }
 
 .offer-section .nav a.accordion-link h5 {
@@ -618,6 +618,7 @@
     padding: 0 25px 25px 25px;
     border-radius: 10px;
     transition: 0.5s;
+   
 }
 
 .team .team-item::before {
@@ -968,3 +969,18 @@ p {
     font-family: 'Gotham Light', sans-serif;
 }
 
+@media (max-width: 480px) {
+  .logo {
+    display: none;
+  }
+  .logos{
+    display: block;
+  }
+
+}
+#site-logos{
+    display: none;
+}
+#site-logo{
+    display: block;
+}
