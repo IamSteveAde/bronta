@@ -1149,3 +1149,6 @@ background-color: #003053;
   html{
     scroll-behavior: smooth;
   }
+  .lead{
+    margin-top: 30px;
+  }
